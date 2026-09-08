@@ -57,31 +57,80 @@
 
 ## ⋆｡°✩ GitHub Analytics ✩°｡⋆
 
-<div align="center">
+import os
+import re
+import requests
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&icon_color=FF6AC1&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+USERNAME = "hxrshu21"
+TOKEN = os.environ["GH_TOKEN"]
+HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
-</div>
+def get_user_data():
+    r = requests.get(f"https://api.github.com/users/{USERNAME}", headers=HEADERS)
+    r.raise_for_status()
+    return r.json()
 
-<div align="center">
+def get_total_stars():
+    stars = 0
+    page = 1
+    while True:
+        r = requests.get(
+            f"https://api.github.com/users/{USERNAME}/repos",
+            headers=HEADERS,
+            params={"per_page": 100, "page": page},
+        )
+        r.raise_for_status()
+        repos = r.json()
+        if not repos:
+            break
+        stars += sum(repo["stargazers_count"] for repo in repos)
+        page += 1
+    return stars
 
-</div>
+def get_year_commits():
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          totalCommitContributions
+          restrictedContributionsCount
+        }
+      }
+    }
+    """
+    r = requests.post(
+        "https://api.github.com/graphql",
+        headers=HEADERS,
+        json={"query": query, "variables": {"login": USERNAME}},
+    )
+    r.raise_for_status()
+    data = r.json()["data"]["user"]["contributionsCollection"]
+    return data["totalCommitContributions"] + data["restrictedContributionsCount"]
 
-<div align="center">
+def main():
+    user = get_user_data()
+    repos = user["public_repos"]
+    followers = user["followers"]
+    stars = get_total_stars()
+    commits = get_year_commits()
 
-</div>
+    row = f"|  **{repos}**  |  **{stars}**  |  **{followers}**  |  **{commits}**  |"
 
-<div align="center">
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.read()
 
-</div>
+    new_content = re.sub(
+        r"(<!--START_SECTION:github-stats-->\s*\|.*?\|\s*\n\|.*?\|\s*\n).*?(\n<!--END_SECTION:github-stats-->)",
+        lambda m: m.group(1) + row + m.group(2),
+        content,
+        flags=re.DOTALL,
+    )
 
-<br/>
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6AC1,100:6E48AA&height=3&section=header"/>
-</div>
-
-<br/>
+if __name__ == "__main__":
+    main()
 
 ## ⋆｡°✩ Contribution Snake ✩°｡⋆
 
