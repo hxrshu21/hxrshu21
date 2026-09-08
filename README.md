@@ -108,27 +108,6 @@
 
 <br/>
 
-## ⋆｡°✩ Featured Projects ✩°｡⋆
-
-<div align="center">
-
-<a href="https://github.com/hxrshu21?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hxrshu21&repo=REPLACE_WITH_REPO_1&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&text_color=c9d1d9&icon_color=FF6AC1"/>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hxrshu21&repo=REPLACE_WITH_REPO_2&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&text_color=c9d1d9&icon_color=FF6AC1"/>
-</a>
-
-<sub>Pin your best repos here — replace <code>REPLACE_WITH_REPO_1</code> / <code>_2</code> with real repo names, or add more cards the same way.</sub>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6AC1,100:6E48AA&height=3&section=header"/>
-</div>
-
-<br/>
-
 ## ⋆｡°✩ Connect With Me ✩°｡⋆
 
 <div align="center">
@@ -152,12 +131,3 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E48AA,100:9D50BB&height=120&section=footer&animation=twinkling" width="100%"/>
 
 <br/>
-
-## ⋆｡°✩ Snake ko activate karna (one-time setup) ✩°｡⋆
-
-Yeh snake animation apne-aap generate nahi hoti — GitHub Action chalani padti hai jo daily tumhare contribution graph se snake SVG banata hai. Steps:
-
-1. Apne repo (`hxrshu21/hxrshu21`) me `.github/workflows/snake.yml` naam ki file banao — content niche di gayi `snake.yml` file me hai.
-2. Commit + push karo, phir repo ke **Actions** tab me jaake workflow ko ek baar manually run karo (`Run workflow`).
-3. Yeh ek `output` branch banayega jisme `github-contribution-grid-snake.svg` save hoga — README me already usi ko point kiya gaya hai.
-4. Uske baad yeh daily automatically refresh hota rahega (cron schedule workflow file me set hai).
