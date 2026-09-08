@@ -59,25 +59,11 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&icon_color=FF6AC1&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
-
 </div>
 
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hxrshu21&theme=radical&hide_border=true&background=0D1117&ring=FF6AC1&fire=B983FF&currStreakLabel=B983FF"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hxrshu21&theme=react-dark&hide_border=true&bg_color=0D1117&color=B983FF&line=FF6AC1&point=ffffff&area=true&area_color=9D50BB"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hxrshu21&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1"/>
 
 </div>
 
