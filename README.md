@@ -57,10 +57,9 @@
 
 ## ⋆｡°✩ GitHub Analytics ✩°｡⋆
 
-div align="center">
+<div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&icon_color=FF6AC1&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxrshu21&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&text_color=c9d1d9&langs_count=8"/>
 
 </div>
 
