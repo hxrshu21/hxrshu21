@@ -65,8 +65,6 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hxrshu21&theme=radical&hide_border=true&background=0D1117&ring=FF6AC1&fire=B983FF&currStreakLabel=B983FF"/>
-
 </div>
 
 <div align="center">
@@ -74,8 +72,6 @@
 </div>
 
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hxrshu21&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1"/>
 
 </div>
 
