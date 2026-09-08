@@ -57,80 +57,39 @@
 
 ## ⋆｡°✩ GitHub Analytics ✩°｡⋆
 
-import os
-import re
-import requests
+div align="center">
 
-USERNAME = "hxrshu21"
-TOKEN = os.environ["GH_TOKEN"]
-HEADERS = {"Authorization": f"Bearer {TOKEN}"}
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&icon_color=FF6AC1&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxrshu21&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=B983FF&text_color=c9d1d9&langs_count=8"/>
 
-def get_user_data():
-    r = requests.get(f"https://api.github.com/users/{USERNAME}", headers=HEADERS)
-    r.raise_for_status()
-    return r.json()
+</div>
 
-def get_total_stars():
-    stars = 0
-    page = 1
-    while True:
-        r = requests.get(
-            f"https://api.github.com/users/{USERNAME}/repos",
-            headers=HEADERS,
-            params={"per_page": 100, "page": page},
-        )
-        r.raise_for_status()
-        repos = r.json()
-        if not repos:
-            break
-        stars += sum(repo["stargazers_count"] for repo in repos)
-        page += 1
-    return stars
+<div align="center">
 
-def get_year_commits():
-    query = """
-    query($login: String!) {
-      user(login: $login) {
-        contributionsCollection {
-          totalCommitContributions
-          restrictedContributionsCount
-        }
-      }
-    }
-    """
-    r = requests.post(
-        "https://api.github.com/graphql",
-        headers=HEADERS,
-        json={"query": query, "variables": {"login": USERNAME}},
-    )
-    r.raise_for_status()
-    data = r.json()["data"]["user"]["contributionsCollection"]
-    return data["totalCommitContributions"] + data["restrictedContributionsCount"]
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hxrshu21&theme=radical&hide_border=true&background=0D1117&ring=FF6AC1&fire=B983FF&currStreakLabel=B983FF"/>
 
-def main():
-    user = get_user_data()
-    repos = user["public_repos"]
-    followers = user["followers"]
-    stars = get_total_stars()
-    commits = get_year_commits()
+</div>
 
-    row = f"|  **{repos}**  |  **{stars}**  |  **{followers}**  |  **{commits}**  |"
+<div align="center">
 
-    with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hxrshu21&theme=react-dark&hide_border=true&bg_color=0D1117&color=B983FF&line=FF6AC1&point=ffffff&area=true&area_color=9D50BB"/>
 
-    new_content = re.sub(
-        r"(<!--START_SECTION:github-stats-->\s*\|.*?\|\s*\n\|.*?\|\s*\n).*?(\n<!--END_SECTION:github-stats-->)",
-        lambda m: m.group(1) + row + m.group(2),
-        content,
-        flags=re.DOTALL,
-    )
+</div>
 
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_content)
+<div align="center">
 
-if __name__ == "__main__":
-    main()
+<img src="https://github-profile-trophy.vercel.app/?username=hxrshu21&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6AC1,100:6E48AA&height=3&section=header"/>
+</div>
+
+<br/>
+
 
 ## ⋆｡°✩ Contribution Snake ✩°｡⋆
 
