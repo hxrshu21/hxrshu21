@@ -1,31 +1,220 @@
-<h1 align="center">Hi 👋, I'm Harsh Sakharkar</h1>
-<h3 align="center">Programmer•Python•C++•Open Source</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hxrshu21&label=Profile%20views&color=0e75b6&style=flat" alt="hxrshu21" /> </p>
+# 👋 Hi, I'm Harsh Sakharkar
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hxrshu21" alt="hxrshu21" /></a> </p>
+### `Programmer` • `Python` • `C++` • `Open Source`
 
-- 🌱 I’m currently learning **Content Creation**
+<img src="https://komarev.com/ghpvc/?username=hxrshu21&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
 
-- 👨‍💻 All of my projects are available at [https://github.com/hxrshu21](https://github.com/hxrshu21)
+<br>
 
-- 💬 Ask me about **Python • C++ • Coding • Open Source • Tech**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=650&lines=Code.+Create.+Learn.+Repeat.;Python+%7C+C%2B%2B+%7C+HTML+%7C+Java;Building+projects+and+learning+every+day;Welcome+to+my+GitHub+profile+%F0%9F%8C%8C" alt="Typing SVG"/>
 
-- 📫 How to reach me **harshsakharkar455@gmail.com**
+</div>
 
-- ⚡ Fun fact **I turn ☕ into code.**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://fb.com/hyy.hxrsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="hyy.hxrsh" height="30" width="40" /></a>
-<a href="https://instagram.com/hxrshu21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hxrshu21" height="30" width="40" /></a>
-</p>
+## 🌌 About Me
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
+```python
+class Harsh:
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hxrshu21&show_icons=true&locale=en&layout=compact" alt="hxrshu21" /></p>
+    name = "Harsh Sakharkar"
+    username = "hxrshu21"
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&locale=en" alt="hxrshu21" /></p>
+    currently_learning = [
+        "Python",
+        "C++",
+        "Java",
+        "Web Development"
+    ]
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hxrshu21&" alt="hxrshu21" /></p>
+    interests = [
+        "Programming",
+        "Open Source",
+        "AI / ML",
+        "Software Development"
+    ]
+
+    motto = "Build. Break. Learn. Repeat."
+```
+
+---
+
+## 🧠 What I'm Learning
+
+* 🐍 Python
+* ⚡ C++
+* ☕ Java
+* 🌐 HTML / CSS
+* 🗄️ Databases
+* 🤖 AI / ML
+* 🐧 Linux
+* 🔧 Git & GitHub
+* 💻 Software Development
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,cpp,java,html,css,js" />
+
+### Tools & Technologies
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,mysql,nodejs,react" />
+
+</div>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&theme=tokyonight" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxrshu21&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" height="180"/>
+
+</div>
+
+---
+
+# 🔥 Contribution Streak
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=hxrshu21&theme=tokyonight&hide_border=true&mode=weekly" width="700"/>
+
+</div>
+
+---
+
+# 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hxrshu21&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=hxrshu21&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=4" width="90%"/>
+
+</div>
+
+---
+
+# ⭐ GitHub Stats
+
+<div align="center">
+
+<img src="https://img.shields.io/github/stars/hxrshu21?style=for-the-badge&logo=github&label=TOTAL%20STARS"/>
+
+<img src="https://img.shields.io/github/followers/hxrshu21?style=for-the-badge&logo=github&label=FOLLOWERS"/>
+
+<img src="https://img.shields.io/github/repos/hxrshu21?style=for-the-badge&logo=github&label=PUBLIC%20REPOS"/>
+
+</div>
+
+---
+
+# 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/hxrshu21/python-class">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=hxrshu21&repo=python-class&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/hxrshu21/hxrshu21">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=hxrshu21&repo=hxrshu21&theme=tokyonight&hide_border=true" />
+</a>
+
+</div>
+
+---
+
+# 📌 My GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=hxrshu21&show=reviews,discussions_started,discussions_answered,prs_merged&hide_border=true&theme=tokyonight" width="700"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+
+</div>
+
+---
+
+# 🎯 Current Goals
+
+```text
+[████████████████░░░░] Python
+[██████████████░░░░░░] C++
+[███████████░░░░░░░░░] Java
+[██████████░░░░░░░░░░] Web Development
+[████████░░░░░░░░░░░░] AI / ML
+```
+
+> 🚀 Learning something new every day.
+
+---
+
+# 💻 Featured Skills
+
+| Area           | Technologies          |
+| -------------- | --------------------- |
+| 🐍 Programming | Python, C++, Java     |
+| 🌐 Web         | HTML, CSS, JavaScript |
+| 🔧 Development | Git, GitHub, VS Code  |
+| 🗄️ Database   | MySQL                 |
+| 🐧 OS          | Linux                 |
+| 🤖 Exploring   | AI / ML               |
+
+---
+
+# 📫 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/hxrshu21">
+<img src="https://img.shields.io/badge/GitHub-hxrshu21-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.instagram.com/hxrshu21">
+<img src="https://img.shields.io/badge/Instagram-hxrshu21-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+<a href="mailto:harshsakharkar455@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💜 Thanks for visiting my profile!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
+</div>
+
